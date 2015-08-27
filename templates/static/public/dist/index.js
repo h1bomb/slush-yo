@@ -1,0 +1,1 @@
+define("demo/index",["jquery/jquery"],function(e,r,u){var d;e("demo/js/default"),u.exports=d}),define("demo/js/default",["jquery/jquery"],function(e,r,u){var d=e("jquery/jquery");d("body h1").css("color","#eee")});

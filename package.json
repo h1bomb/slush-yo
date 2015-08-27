@@ -1,0 +1,48 @@
+{
+    "name": "slush-yo",
+    "description": "A slush generator to scaffold yo apps.",
+    "version": "0.1.0",
+    "homepage": "",
+    "author": {
+        "name": "Hbomb",
+        "email": "hbomb@126.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/h1bomb/slush-yo.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/h1bomb/slush-yo/blob/master/LICENSE"
+    }],
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.12.7",
+        "npm": ">=2.11.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "gulp": "^3.8.11",
+        "gulp-template": "^3.0.0",
+        "gulp-install": "^0.5.0",
+        "gulp-conflict": "^0.4.0",
+        "gulp-rename": "^1.2.2"
+    },
+    "keywords": [
+        "slushgenerator",
+        "yo",
+        "express",
+        "handlebars",
+        "redis",
+        "pjax",
+        "session",
+        "spm",
+        "api",
+        "proxy"
+    ]
+}
