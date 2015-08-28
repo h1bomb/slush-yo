@@ -1,4 +1,4 @@
-var yo = require('yo'); //引用YO框架
+var yo = require('yo.js'); //引用YO框架
 var staticDir = require('./staticConfig').staticDir; //获取静态文件的不同环境配置
 
 //redis的配置
